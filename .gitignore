@@ -1,0 +1,29 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# env / venv
+.env
+.venv/
+venv/
+.envrc
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
+
+# logs / temp
+*.log
+tmp/
+uploads/
+
+# secrets / certificates 
+*.key
+*.pem
+*.pfx
+*.p12
+
+# generated pdf outputs
+stamped*.pdf

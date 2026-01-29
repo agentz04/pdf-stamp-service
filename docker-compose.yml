@@ -1,0 +1,8 @@
+services:
+  pdf-stamper:
+    build: .
+    container_name: pdf-stamper
+    ports:
+      - "18080:8000"
+    restart: unless-stopped
+    mem_limit: 512m
