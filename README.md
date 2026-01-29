@@ -20,3 +20,7 @@ Python, FastAPI, OpenSSL, ReportLab, PyPDF, Docker Compose
 ## Запуск
 ```bash
 docker compose up -d --build
+
+После запуска сервис будет доступен в браузере:
+
+http://<SERVER_IP>:80
